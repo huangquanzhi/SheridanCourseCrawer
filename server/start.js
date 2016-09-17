@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var cors = require('cors');
 var Promise = require('promise');
 
 var Crawler = require("crawler");
@@ -145,6 +146,7 @@ var searchForAvailability = function (error, result, $) {
 
 };
 
+app.use(cors());
 
 app.get('/', function (req, res) {
 

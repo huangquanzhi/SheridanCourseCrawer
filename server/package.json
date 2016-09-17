@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"run": "node start.js",
+    "run": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cors": "^2.8.1",
     "crawler": "^0.4.3"
   }
 }
