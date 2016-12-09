@@ -1,5 +1,7 @@
 # SheridanCourseCrawer
 
+<b>Working as of 2016 Dec</b>
+
 <b>HOW TO RUN</b>
 
 goto <code>/server</code>
